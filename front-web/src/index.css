@@ -13,7 +13,7 @@
 }
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: var(--secondary-color);
   color: var(--light-color);
 }

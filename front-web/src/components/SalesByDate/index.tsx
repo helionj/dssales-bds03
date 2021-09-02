@@ -2,6 +2,16 @@ import ReactApexChart from 'react-apexcharts';
 import { chartOptions } from './helpers';
 import './styles.css';
 
+const initialData = [
+  {
+    x: '2020-01-01',
+    y: 504,
+  },
+  {
+    x: '2020-02-01',
+    y: 106,
+  },
+];
 const SalesByDate = () => {
   return (
     <div className="sales-by-date-container base-card">
@@ -22,7 +32,7 @@ const SalesByDate = () => {
         <div className="sales-by-date-chart">
           <ReactApexChart
             options={chartOptions}
-            series={[{ name: 'Vendas', data: [] }]}
+            series={[{ name: 'Vendas', data: initialData }]}
             type="bar"
             height={240}
             width="100%"
