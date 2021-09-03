@@ -1,0 +1,25 @@
+.sales-summary-card {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sales-summary-card:nth-of-type(1),
+.sales-summary-card:nth-of-type(2) {
+  margin-bottom: 40px;
+}
+
+.sales-summary-card-value {
+  font-size: 24px;
+  color: var(--white-color);
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.sales-summary-card-label {
+  font-size: 18px;
+  color: var(--grey-light-125-color);
+}
